@@ -6,6 +6,10 @@
 npm install
 ```
 
+## Install
+
+- [How to install jest](./install/README.md)
+
 ## Run tests
 
 > To run your test just run
