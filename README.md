@@ -1,14 +1,22 @@
 # Jest :
 
+## Setup
+
+```Markdown
+npm install
+```
+
+## Run tests
+
 > To run your test just run
 
-```
+```Markdown
 npm run test -- path-to-your-test-file
 ```
 
 Or to run all the tests
 
-```
+```Markdown
 npm run test
 ```
 
