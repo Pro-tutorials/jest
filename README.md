@@ -63,16 +63,36 @@ npm run test
 - `toMatch` : check if a string match
 - [checkAString](./examples/example-5/checkAString.js)
 
-## Arrays and iterables
+### Arrays and iterables
 
 -`toContain`: check if array contains an item
 
 - [checkIfItemInArray](./examples/example-6/checkIfItemInArray.js)
 
-## Exceptions(Errors)
+### Exceptions(Errors)
 
 - `toThrow`: used with errors
 
 - [throwAnError](./examples/example-7/throwAnError.js)
 
 - [More matchers](https://jestjs.io/docs/expect)
+
+## Testing Asynchronous Code
+
+### Promises
+
+- `.then` : to wait until the promise is resolved or rejected
+
+- [checkPromise](./examples/example-8/checkPromise.js)
+
+### Async/ Await
+
+- `async/await`
+
+- [fetchData](./examples/example-9/fetchData.js)
+
+### Async/Await and resolves/rejects
+
+- `async/await` and `resolves/rejects`
+
+- [fetchNumber](./examples/example-10/fetchNumber.js)
