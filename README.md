@@ -62,3 +62,17 @@ npm run test
 
 - `toMatch` : check if a string match
 - [checkAString](./examples/example-5/checkAString.js)
+
+## Arrays and iterables
+
+-`toContain`: check if array contains an item
+
+- [checkIfItemInArray](./examples/example-6/checkIfItemInArray.js)
+
+## Exceptions(Errors)
+
+- `toThrow`: used with errors
+
+- [throwAnError](./examples/example-7/throwAnError.js)
+
+- [More matchers](https://jestjs.io/docs/expect)
