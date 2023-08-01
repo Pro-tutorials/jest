@@ -108,7 +108,7 @@ npm run test
 
 ### One-Time Setup
 
-- `beforeAll` and `beforeAll` : run a setup function before all or after all
+- `beforeAll` and `afterAll` : run a setup function before all or after all
   tests in test suite.
 
 - [handlePetsDatabase](./examples/example-12/handlePetsDatabase.js)
