@@ -96,3 +96,27 @@ npm run test
 - `async/await` and `resolves/rejects`
 
 - [fetchNumber](./examples/example-10/fetchNumber.js)
+
+## Setup and Teardown
+
+### Repeating Setup
+
+- `beforeEach` and `afterEach` : run a setup function before or after each test
+  in test suite.
+
+- [handleCityDatabase](./examples/example-11/handleCityDatabase.js)
+
+### One-Time Setup
+
+- `beforeAll` and `beforeAll` : run a setup function before all or after all
+  tests in test suite.
+
+- [handlePetsDatabase](./examples/example-12/handlePetsDatabase.js)
+
+### Advice
+
+- `test.only` : to run only one test.
+
+- [isEven](./examples/example-13/isEven.js)
+
+## Mock Functions
