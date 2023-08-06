@@ -13,6 +13,10 @@ describe('Sum two numbers', () => {
         test('adds 0 + 0 to equal 0', () => {
             expect(sum(0, 0)).toBe(0);
         });
+
+        test('2 + 5 to equal 7', () => {
+            expect(sum(2, 5)).toBe(7);
+        });
     });
 
     describe('Large Numbers', () => {
